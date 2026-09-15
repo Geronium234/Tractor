@@ -19,9 +19,9 @@ async function setDatabaseConnction() {
     if (null === connection) {
         connection = await mysql.createConnection({
             host: 'localhost',
-            user: 'root',
-            password: '',
-            database: ''
+            user: 'admin',
+            password: '123456789',
+            database: 'database-2'
         });
     }
 }
